@@ -1,0 +1,115 @@
+.wrapper {
+    display: none;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 800px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    z-index: 1050;
+  }
+  
+  .modal.is-open {
+    display: block;
+  }
+  
+  .wrapper h2 {
+    font-size: 36px;
+    text-align: center;
+    color: black;
+  }
+  .total{
+    font-size: 30px;
+    color: black;
+  }
+  .total-pagar{
+    font-size: 28px;
+    text-align: center;
+    color: black;
+  }
+  .pagador {
+    display: flex;
+    justify-content: space-around;
+  }
+  .pagador button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clear-all {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pay-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .text-cart{
+    font-size: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .pizza-details{
+    flex: 1;
+    margin-left: 10px;
+  }
+
+  .mayor {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .menor {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .card {
+    margin: 20px;
+    border: 1px solid #3ead34;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    gap: 16px;
+  }
+
+  .linea{
+    border: none;
+    border-top: 1px solid black;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    z-index: 1060;
+  }
